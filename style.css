@@ -146,7 +146,7 @@ main{
 main .email input{
     background-color: white;
     color:#b6b8ba;
-    width: 300px;
+    width: 200px;
     height: 25px;
     padding: 10px;
     margin: auto auto 20px auto;
@@ -158,7 +158,7 @@ main .email input{
 main .senha input{
     background-color: white;
     color:#b6b8ba;
-    width: 300px;
+    width: 200px;
     height: 25px;
     padding: 10px;
     margin: auto auto 20px auto;

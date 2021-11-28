@@ -113,14 +113,29 @@ main{
 .registro .termos strong{
     color: #899bbe;
 }
+
+.registro .login {
+    padding: 10px;
+
+}
+.registro .login a{
+    text-decoration: none;
+}
+.registro .login a:hover{
+    text-decoration: underline;
+}
+
 .registro .cadastrar{
     background-color: #619A50;
     max-width: 300px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
     margin: auto;
-    padding: 10px;
-    
+    padding: 10px;   
+}
+
+.registro .cadastrar:hover{
+    background-color: #4f9e37d7;
 }
 .registro .cadastrar a{
     color: white;
@@ -164,20 +179,15 @@ main .entrar{
 .main .entrar:hover{
     background-color:#446abde0;
 }
-.login {
-    padding: 10px;
 
-}
-.login a{
-    text-decoration: none;
-}
-.login a:hover{
-    text-decoration: underline;
-}
 main .entrar a{
     color: white;
     text-align: center;
     text-decoration: none;
+}
+
+.entrar:hover{
+    background-color: #3d5fa0;
 }
 .registro footer{
     margin-top: 30px;

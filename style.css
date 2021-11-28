@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #4a67a8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body.registro{
+    background-color: #ebedf0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+header{
+    text-align: center;
+    margin: 40px;
+    
+}
+header h1{
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+}
+.registro > header{
+    background-color: #4a67a8;
+    margin: 0px;
+    padding: 0px;
+
+}
+.registro > header > h1{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+    
+}
+.registro > header > a{
+    background-color: #3d5fa0;
+    color: white;
+    position: relative;
+    left: 500px;
+    top: -50px;
+    padding:10px ;
+    text-decoration: none;
+    box-shadow:rgba(0, 0, 0, 0.103);
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.registro main h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.075);
+    margin: 10px;
+}
+.registro main h3{
+    color:#b6b8ba; 
+    text-align: left;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.014);
+    margin: 10px;
+}
+.registro .nome {
+    text-align:left ;
+
+}
+.registro .nome input{
+    background-color: white;
+    color:#b6b8ba;
+    width: 450px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
+    margin: 10px;
+    padding: 10px;
+}
+.registro .cel {
+    text-align: left;
+}
+.registro .cel input{
+    background-color: white;
+    color:#b6b8ba;
+    width: 450px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
+    margin: 10px;
+    padding: 10px;
+
+}
+.registro .nova-senha{
+    text-align: left;
+}
+.registro .nova-senha input{
+    background-color: white;
+    color:#b6b8ba;
+    width: 450px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
+    margin: 10px;
+    padding: 10px;
+
+}
+.registro .genero{
+    text-align: left;
+}
+.registro .genero label{
+    padding: 10px;
+}
+
+.registro .termos{
+    max-width: 400px;
+    padding: 10px;
+    text-align: left;
+    font-size: 0.8em;
+}
+.registro .termos strong{
+    color: #899bbe;
+}
+.registro .cadastrar{
+    background-color: #619A50;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
+    margin: 10px;
+    padding: 10px;
+    
+}
+.registro .cadastrar a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: none;
+}
+main .email input{
+    background-color: white;
+    color:#b6b8ba;
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    margin: auto auto 20px auto;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
+    text-align: left;
+}
+main .senha input{
+    background-color: white;
+    color:#b6b8ba;
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    margin: auto auto 20px auto;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
+    text-align: left;
+}
+
+main .entrar{
+    background-color: #213a72;
+    max-width: 300px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
+    
+}
+.main .entrar:hover{
+    background-color:#446abde0;
+}
+.login {
+    padding: 10px;
+    text-align: left;
+}
+.login a{
+    text-decoration: none;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+main .entrar a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.registro footer{
+    margin-top: 30px;
+    text-align: center;
+}
+.registro footer a {
+    color: black;
+    text-align: left;
+}
+footer{
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+
+}
+footer a:hover{
+    text-decoration: underline;
+}
